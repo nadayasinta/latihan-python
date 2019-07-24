@@ -2,7 +2,7 @@ from django.shortcuts import render
 from .models import Hewan
 from .forms import inputbinatang
 from django.http import HttpResponseRedirect
-from django.shortcut import redirect
+from django.shortcuts import redirect
 
 # Create your views here.
 def daftar_binatang(request):
